@@ -1,4 +1,6 @@
 import RedaImage from '/src/assets/reda-image.jpg'
+import emailImage from '/src/assets/email.png'
+import linkImage from '/src/assets/linkedin.png'
 
 export default function Info() {
     return (
@@ -10,11 +12,11 @@ export default function Info() {
             <p>redastambouli.website</p>
             <nav className="info-nav">
                 <div className="email-box">
-                    <img src="src\assets\email.png" />
+                    <img src={emailImage} />
                     <p>Email</p>
                 </div>
                 <div className="linkedln-box">
-                    <img src="src\assets\linkedin.png" />
+                    <img src={linkImage} />
                     <p>Linkedln</p>
                 </div>
 
