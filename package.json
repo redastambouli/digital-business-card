@@ -1,10 +1,13 @@
 {
+  "homepage": "https://redastambouli.github.io/digital-business-card",
   "name": "digital-business-card",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
