@@ -7,12 +7,12 @@ export default function Footer() {
     return (
 
         <div className="footer-section">
-            <img src={facebookImage} />
-            <img src={gitHubImage} />
-            <img src={instagramImage} />
-            <img src={twitterImage} />
+            <a href="https://www.facebook.com/reda.stambouli.13" target="_blank"><img src={facebookImage} /></a>
+            <a href="https://github.com/redastambouli" target="_blank"><img src={gitHubImage} /></a>
+            <a href="https://www.instagram.com/redastambouli/" target="_blank"><img src={instagramImage} /></a>
+            <a href="https://twitter.com/redastambouli_/" target="_blank"><img src={twitterImage} /></a>
 
-            
+
         </div>
     )
 }

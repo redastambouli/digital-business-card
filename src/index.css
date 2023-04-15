@@ -69,6 +69,7 @@ body {
   justify-content: center;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .email-box {
@@ -139,12 +140,13 @@ h3 {
   border-bottom-left-radius: 12px;
 }
 
-.footer-section>img {
+.footer-section>a>img {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-.footer-section>img:hover {
+.footer-section>a>img:hover {
   box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
 
 }
